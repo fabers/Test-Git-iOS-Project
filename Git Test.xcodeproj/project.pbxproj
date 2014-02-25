@@ -21,6 +21,7 @@
 		7216588018BD415D00959754 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7216586218BD415D00959754 /* UIKit.framework */; };
 		7216588818BD415D00959754 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7216588618BD415D00959754 /* InfoPlist.strings */; };
 		7216588A18BD415D00959754 /* Git_TestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7216588918BD415D00959754 /* Git_TestTests.m */; };
+		7216589518BD42C600959754 /* SFTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 7216589418BD42C600959754 /* SFTest.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		7216588518BD415D00959754 /* Git TestTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Git TestTests-Info.plist"; sourceTree = "<group>"; };
 		7216588718BD415D00959754 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		7216588918BD415D00959754 /* Git_TestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Git_TestTests.m; sourceTree = "<group>"; };
+		7216589318BD42C600959754 /* SFTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SFTest.h; sourceTree = "<group>"; };
+		7216589418BD42C600959754 /* SFTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SFTest.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -116,6 +119,8 @@
 				7216586E18BD415D00959754 /* SFAppDelegate.m */,
 				7216587018BD415D00959754 /* Main.storyboard */,
 				7216587318BD415D00959754 /* SFViewController.h */,
+				7216589318BD42C600959754 /* SFTest.h */,
+				7216589418BD42C600959754 /* SFTest.m */,
 				7216587418BD415D00959754 /* SFViewController.m */,
 				7216587618BD415D00959754 /* Images.xcassets */,
 				7216586518BD415D00959754 /* Supporting Files */,
@@ -250,6 +255,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7216589518BD42C600959754 /* SFTest.m in Sources */,
 				7216586B18BD415D00959754 /* main.m in Sources */,
 				7216587518BD415D00959754 /* SFViewController.m in Sources */,
 				7216586F18BD415D00959754 /* SFAppDelegate.m in Sources */,
